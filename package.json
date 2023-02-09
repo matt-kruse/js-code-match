@@ -1,0 +1,31 @@
+{
+  "name": "js-code-match",
+  "version": "1.0.0",
+  "description": "Simple JS Code Manipulation via AST",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/matt-kruse/js-code-match.git"
+  },
+  "keywords": [
+    "ast",
+    "jscodeshift"
+  ],
+  "author": "Matt Kruse <github@mattkruse.com> (http://mattkruse.com/)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/matt-kruse/js-code-match/issues"
+  },
+  "homepage": "https://github.com/matt-kruse/js-code-match#readme",
+  "dependencies": {
+    "grid-log": "^1.0.0",
+    "jscodeshift": "^0.14.0",
+    "object-traversal": "^1.0.1"
+  }
+}
